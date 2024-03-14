@@ -492,11 +492,11 @@ footer{
     }
     p{
         text-align: justify;
-        font-size: .85rem;
+        font-size: .9rem;
     }
     .overview .content p{
         width: 100%;
-        font-size: .85rem;
+        font-size: .9rem;
     }
     .overview .content h3{
         font-size: 1rem;
@@ -534,7 +534,7 @@ footer{
     }
     .blackCoffee .image p,.hotCoffee p,.whiteCoffee p,.review p{
         width: 100%;
-        font-size: .85rem;
+        font-size: .9rem;
         text-align: justify;
         padding-bottom: 1rem;
     }
@@ -595,7 +595,7 @@ footer{
     }
     .branch p{
         text-align: justify;
-        font-size: .85rem;
+        font-size: .9rem;
     }
     .Footercontent{
         flex-direction: column;
