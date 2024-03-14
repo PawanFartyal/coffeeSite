@@ -441,7 +441,7 @@ footer{
 .footer .logo{
     height: 2.75rem;
 }
-.footer > .contact{
+.Footercontact{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -455,7 +455,7 @@ footer{
 .mobile{
     display: none;
 }
-@media  (max-width:420px) {
+@media  (max-width:600px) {
     .bigScreen{
         display: none;
     }
@@ -561,5 +561,25 @@ footer{
     }
     .reviewContainer{
         flex-direction: column;
+    }
+    .timing p{
+        text-align: center;
+    }
+    .timing{
+        padding-bottom: 1.5rem;
+    }
+    .montofri{
+        padding-bottom: 1rem;
+        padding-top: 1.5rem;
+    }
+    .branches{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .branch{
+        width: 100%;
+    }
+    .branch p{
+        text-align: justify;
     }
 }
