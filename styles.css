@@ -481,6 +481,7 @@ footer{
     }
     p{
         text-align: justify;
+        font-size: .75rem;
     }
     .overview .content p{
         width: 100%;
@@ -501,46 +502,64 @@ footer{
     }
     .blackCoffee,.hotCoffee,.whiteCoffee{
         flex-direction: column;
+        padding-bottom: 1.5rem;
     }
-    .whiteCoffee{
-        flex-direction: row-reverse;
+    .whiteCoffee,.hotCoffee{
+        flex-direction: column-reverse;
     }
-    .blackCoffee .image{
+    .blackCoffee .image,.hotCoffee .image,.whiteCoffee .image{
         width: 100%;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+    }
+    .hotCoffee{
+        padding-top: 1rem;
+        padding-bottom: 4rem;
     }
     .blackCoffee .image img,.hotCoffee img,.whiteCoffee img{
         width: 100%;
+        padding-top: 1.5rem;
     }
     .blackCoffee .image p,.hotCoffee p,.whiteCoffee p,.review p{
         width: 100%;
         font-size: .75rem;
         text-align: justify;
+        padding-bottom: 1rem;
     }
     .vector_smart_object_doubl_42{
         height: 5rem;
     } 
-    .blackCoffee .content,.hotCoffee .content,.whiteCoffee .content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 3.5rem;
-    }
     .blackCoffee .heading h3,.hotCoffee .heading h3,.whiteCoffee .heading h3{
         font-size: 4rem;
     }
-    .blackCoffee .orderBtn,.hotCoffee .orderBtn,.whiteCoffee .orderBtn{
-       background-color:#232832;
-       width:150px;
-       padding: .5rem 0;
+    .hotandWhiteCoffeeContainer {
+        padding-bottom: 1rem;
     }
     .hotCoffee .orderBtn,.whiteCoffee .orderBtn{
         background-color: var(--skyBlue);
     }
-    .hotCoffee p{
-        text-align: left;
+    .voucher h3{
+       font-size: 4rem;
     }
-    .hotandWhiteCoffeeContainer{
+    .voucher{
+        width: 90%;
+        margin: auto;
+    }
+    .voucher img{
+        width: 100%;
+    }
+    .review p{
+        width: 100%;
+        padding-top: 0.5rem;
+    }
+    .review img{
+        width:100%;
+    }
+    .review{
         padding-bottom: 2rem;
+    }
+    .reviewContainer{
+        flex-direction: column;
     }
 }
