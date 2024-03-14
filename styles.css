@@ -455,7 +455,7 @@ footer{
 .mobile{
     display: none;
 }
-@media  (max-width:600px) {
+@media  (max-width:720px) {
     .bigScreen{
         display: none;
     }
