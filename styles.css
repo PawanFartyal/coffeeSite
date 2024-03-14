@@ -467,11 +467,14 @@ footer{
         background: transparent;
         font-size: 1.5rem;
     }
+    .blackCoffee,.hotandWhiteCoffeeContainer,.reviews{
+        width: 90%;
+    }
     .overview h1{
         font-size: 4rem;
         padding-bottom: 1rem;
     }
-    .content{
+    .overview .content{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -579,7 +582,33 @@ footer{
     .branch{
         width: 100%;
     }
+    .branch img {
+        width: 100%;
+    }
     .branch p{
         text-align: justify;
+    }
+    .Footercontent{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .Footercontent .links{
+        font-size: .75rem;      
+    }
+    .Footercontent .content h4{
+        padding-bottom: 0.4rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .footer .logo{
+        height: 2rem;
+        width: 9rem;
+    }
+    .Footercontact{
+        justify-content: center;
+    }
+    .social{
+        justify-content: center;
     }
 }
