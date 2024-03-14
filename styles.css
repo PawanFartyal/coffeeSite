@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --skyBlue:#2DA09B;
+    --HeadingFont:"Grand Hotel", cursive;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.navbar,.branchesContainer,.footer{
+    width: 90%;
+    margin: auto;
+}
+.blackCoffee,.hotandWhiteCoffeeContainer,.reviews{
+    width: 80%;
+    margin: auto;
+}
+.OverviewContainer,.blackCoffeeContainer,.hotandWhiteCoffee,.voucher,.reviewCon,.timingContainer,.branchesCon{
+    position: relative;
+}
+/* Absolute Imaged */
+.absoluteImage{
+    position: absolute;
+    width: 3rem;
+}
+.vector_smart_object_doubl_36{
+    top: 7%;
+    left: 64%;
+    
+}
+.vector_smart_object_doubl_45{
+    top: 52%;
+    left: 51%;
+    
+}
+.vector_smart_object_doubl_44{
+    bottom: -2%;
+    left: 37%;
+    width: 3.5rem;
+}
+.vector_smart_object_doubl_26{
+    top: -12%;
+    left: 17%;
+}
+.vector_smart_object_doubl_38{
+    top: 10%;
+    left: 45%;
+}
+.vector_smart_object_doubl_43{
+    top: -7%;
+    right: 8%;
+}
+.vector_smart_object_doubl_37{
+    top: 55%;
+    right: 50%;
+    width: 4.5rem;
+}
+.vector_smart_object_doubl_31{
+    top: 64%;
+    right: 5%;
+}
+.vector_smart_object_doubl_32{
+    bottom: -2%;
+    left: 12%;
+}
+.vector_smart_object_doubl_29{
+    top: 8%;
+    left: 6%;
+}
+.vector_smart_object_doubl_33{
+    top: 8%;
+    left: 51%;
+}
+.vector_smart_object_doubl_40{
+    top: 25%;
+    right: 4%;
+}
+.vector_smart_object_doubl_30{
+    top: 41%;
+    right: 41%;
+    width: 4rem;
+}
+.vector_smart_object_doubl_39{
+    top: 50%;
+    left: 21%;
+}
+.vector_smart_object_doubl_16{
+    top: 58%;
+    right: 6%;
+}
+.vector_smart_object_doubl_21{
+    top: 67%;
+    right: 51%;
+}
+.vector_smart_object_doubl_25{
+    bottom: 0%;
+    left: 21%;
+    width: 4rem;
+}
+.vector_smart_object_doubl_19{
+    bottom: 22%;
+    left: 10%;
+}
+.vector_smart_object_doubl_6{
+    top: 12%;
+    right: 9%;;
+}
+.vector_smart_object_doubl_12{
+    bottom: 0%;
+    right: 8%;
+    width: 4rem;
+}
+.vector_smart_object_doubl_17{
+    bottom: 18%;
+    left: 3%;
+    width: 4rem;
+}
+.vector_smart_object_doubl_18{
+    top: 31%;
+    left: 50%;
+}
+.vector_smart_object_doubl_24{
+    right: 7%;
+    bottom: 19%;
+
+}
+.vector_smart_object_doubl_39{
+    top: 2%;
+    left: 8%;
+}
+.vector_smart_object_doubl_11{
+    top: 73%;
+    left: 14%;
+}
+.vector_smart_object_doubl_20{
+    top: 0%;
+    right: 10%;
+    width: 4rem;
+}
+.vector_smart_object_doubl_41{
+    bottom: 0%;
+    right: 14%;
+}
+.vector_smart_object_doubl_46{
+    top: -7%;
+    left: 22%;
+}
+.vector_smart_object_doubl_47{
+    top: 0%;
+    right: 5%;
+}
+.vector_smart_object_doubl_48{
+    bottom: 0%;
+    left: 30%;
+
+}
+.vector_smart_object_doubl_49{
+    bottom: -12%;
+    right: 29%;
+}
+body{
+    background: #232832;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 8rem;
+}
+.navlinks,.footer > .contact .links{
+    display: flex;
+    gap:2rem;
+    font-size: 1rem;
+}
+.links a:hover{
+    text-decoration: underline;
+    text-decoration-color:var(--skyBlue);
+    text-decoration-thickness: 2px;
+}
+.overview h1{
+    font-family: var(--HeadingFont);
+    font-size: 9.5rem;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+.overview .content p{
+    text-align: left;
+    line-height: 1.25;
+    width: 32rem;
+    font-size: 1.1rem;
+    color:#ffffff;
+}
+.overview .content h3{
+    letter-spacing: 2px;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+.overview .mask6{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 31rem;
+    z-index: -1;
+}
+.overview{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.orderBtn,.voucherBtn{
+    background: var(--skyBlue);
+    font-size: 1rem;
+    border: none;
+    padding: 0.45rem 1.2rem;
+    border-radius: 10px;
+    font-weight: 650;
+    margin-top: .75rem;
+}
+.OverviewContainer{
+    margin-top: 1.5rem;
+}
+
+.vector_smart_object_doubl_42{
+    width: 100%;
+    height: 9rem;
+    position: relative;
+    top: 0.5rem;
+}
+/* Black Coffee */
+.blackCoffeeContainer{
+    background: var(--skyBlue);
+}
+.blackCoffee,.hotCoffee,.whiteCoffee{
+    display: flex;
+    justify-content: space-between;
+}
+.whiteCoffee{
+    flex-direction: row-reverse;
+}
+.blackCoffee .image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.blackCoffee .image img,.hotCoffee img,.whiteCoffee img{
+    width: 27rem;
+}
+.blackCoffee .image p,.hotCoffee p,.whiteCoffee p,.review p{
+    width: 27rem;
+    text-align: right;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    padding-top: 1.5rem;
+
+}
+.blackCoffee .content,.hotCoffee .content,.whiteCoffee .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.5rem;
+}
+.blackCoffee .heading h3,.hotCoffee .heading h3,.whiteCoffee .heading h3{
+    font-family: var(--HeadingFont);
+    font-size: 8rem;
+    line-height: .9;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+.blackCoffee .orderBtn,.hotCoffee .orderBtn,.whiteCoffee .orderBtn{
+   background-color:#232832;
+   width:150px;
+   padding: .5rem 0;
+}
+.hotCoffee .orderBtn,.whiteCoffee .orderBtn{
+    background-color: var(--skyBlue);
+}
+.hotCoffee p{
+    text-align: left;
+}
+.hotandWhiteCoffeeContainer{
+    padding-bottom: 2rem;
+}
+/* Voucher */
+.voucher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.voucher h3{
+    font-family: var(--HeadingFont);
+    font-size: 5rem;
+    font-weight: 400;
+}
+/* review */
+.review p{
+    text-align: center;
+    width: 21rem;
+}
+.review img{
+    width: 20rem;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.reviewContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.review h4{
+    margin-top: .75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--HeadingFont);
+}
+.reviews h3{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: var(--HeadingFont);
+    padding-top: 3rem;
+    font-weight: 400;
+}
+.vector_smart_object_doubl_15{
+    width: 100%;
+    position: relative;
+    top: .5rem;
+}
+.vector_smart_object_doubl_8{
+    width: 100%;
+}
+.timingContainer{
+    background-color: var(--skyBlue);
+    text-align: center;
+}
+.timing h3{
+  font-family: var(--HeadingFont);
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+.montofri{
+    padding: 3rem 0;
+}
+.timing h4{
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.timing p{
+    font-size: 1.2rem;
+}
+.branchesContainer h3{
+     font-family: var(--HeadingFont);
+     font-size: 3rem;
+     text-align: center;
+     font-weight: 400;
+     padding-bottom: .5rem;
+}
+.branches{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.branch{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.branch img{
+    width: 90%;
+    
+}
+.branch p{
+    text-align: center;
+    font-size: .75rem;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+.vector_smart_object_doubl_2{
+    width: 100%;
+    top: .5rem;
+    position: relative;
+}
+.name{
+   background-color:var(--skyBlue);
+   font-weight: 600;
+   padding: 0.5rem 2.5rem;
+   border-radius: 10px;
+   position: relative;
+}
+.curve{
+    width: 10px;
+    height: 15px;
+    background-color:var(--skyBlue);
+    position: absolute;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 20%;
+    bottom: -7px;
+    left: 0;
+}
+footer{
+    background-color: var(--skyBlue);
+}
+.Footercontent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.Footercontent .content{
+    display: flex;
+    gap: 8rem;
+}
+.Footercontent .links{
+    display: flex;
+    flex-direction: column;
+    font-size: .85rem;
+    line-height: 1.5;
+}
+.Footercontent .content h4{
+    padding-bottom: 1.75rem;
+    font-size: 1.25rem;
+}
+.footer .logo{
+    height: 2.75rem;
+}
+.footer > .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.social{
+    display: flex;
+    gap: 2rem;
+}
+.mobile{
+    display: none;
+}
+@media  (max-width:420px) {
+    .bigScreen{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .toggleBtn{
+        border: none;
+        background: transparent;
+        font-size: 1.5rem;
+    }
+    .overview h1{
+        font-size: 4rem;
+        padding-bottom: 1rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1,h2,h3,h4,h5{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+    .overview .content p{
+        width: 100%;
+        font-size: .75rem;
+    }
+    .overview .content h3{
+        font-size: 1rem;
+    }
+    .overview .BigImage{
+        width: 100%;
+    }
+    .overview{
+        width: 90%;
+        margin: auto;
+    }
+    .OverviewContainer{
+        margin-top: 1.5rem;
+    }
+    .blackCoffee,.hotCoffee,.whiteCoffee{
+        flex-direction: column;
+    }
+    .whiteCoffee{
+        flex-direction: row-reverse;
+    }
+    .blackCoffee .image{
+        width: 100%;
+        align-items: center;
+    }
+    .blackCoffee .image img,.hotCoffee img,.whiteCoffee img{
+        width: 100%;
+    }
+    .blackCoffee .image p,.hotCoffee p,.whiteCoffee p,.review p{
+        width: 100%;
+        font-size: .75rem;
+        text-align: justify;
+    }
+    .vector_smart_object_doubl_42{
+        height: 5rem;
+    } 
+    .blackCoffee .content,.hotCoffee .content,.whiteCoffee .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+    .blackCoffee .heading h3,.hotCoffee .heading h3,.whiteCoffee .heading h3{
+        font-size: 4rem;
+    }
+    .blackCoffee .orderBtn,.hotCoffee .orderBtn,.whiteCoffee .orderBtn{
+       background-color:#232832;
+       width:150px;
+       padding: .5rem 0;
+    }
+    .hotCoffee .orderBtn,.whiteCoffee .orderBtn{
+        background-color: var(--skyBlue);
+    }
+    .hotCoffee p{
+        text-align: left;
+    }
+    .hotandWhiteCoffeeContainer{
+        padding-bottom: 2rem;
+    }
+}
