@@ -452,6 +452,12 @@ footer{
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+.hotCoffee .content {
+    align-items: end;
+}
+.hotCoffee .content .heading{
+    text-align: right;
+}
 .social{
     display: flex;
     gap: 2rem;
@@ -658,5 +664,8 @@ footer{
     }
     .social{
         justify-content: center;
+    }
+    .hotCoffee .content  {
+        align-items: center;
     }
 }
